@@ -5,12 +5,9 @@ import (
 	"testing"
 	"bufio"
 	"os"
-	"sync"
 )
 
 var wtr = bufio.NewWriter(os.Stdout)
-
-var wg sync.WaitGroup
 
 const (
 	FIZZ = 3
